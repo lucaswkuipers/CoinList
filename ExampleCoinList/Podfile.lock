@@ -1,0 +1,16 @@
+PODS:
+  - CoinList (0.1.0)
+
+DEPENDENCIES:
+  - CoinList (from `../`)
+
+EXTERNAL SOURCES:
+  CoinList:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CoinList: 843128db4935ac7359002068f22f1d808c8d5366
+
+PODFILE CHECKSUM: b37e7402ef9a3a546f807b0dd06502d79fc23546
+
+COCOAPODS: 1.10.1

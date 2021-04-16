@@ -1,0 +1,22 @@
+{
+  "name": "CoinList",
+  "version": "0.1.0",
+  "summary": "This module is responsible for the rendering of the Coins List",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/lucaswkuipers/CoinList",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Lucas Werner Kuipers": "lucaswkuipers@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/lucaswkuipers/CoinList.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "CoinList/Classes/**/*"
+}

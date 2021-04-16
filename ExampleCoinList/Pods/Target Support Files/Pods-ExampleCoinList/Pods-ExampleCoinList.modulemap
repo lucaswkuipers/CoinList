@@ -1,0 +1,6 @@
+framework module Pods_ExampleCoinList {
+  umbrella header "Pods-ExampleCoinList-umbrella.h"
+
+  export *
+  module * { export * }
+}
