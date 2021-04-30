@@ -1,16 +1,35 @@
 PODS:
+  - Alamofire (5.4.2)
+  - AlamofireImage (4.2.0):
+    - Alamofire (~> 5.4)
   - CoinList (0.1.0)
+  - LucasCoinAPI (0.0.1):
+    - AlamofireImage
+    - SwiftLint
+  - SwiftLint (0.43.1)
 
 DEPENDENCIES:
   - CoinList (from `../`)
+  - LucasCoinAPI
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - AlamofireImage
+    - LucasCoinAPI
+    - SwiftLint
 
 EXTERNAL SOURCES:
   CoinList:
     :path: "../"
 
 SPEC CHECKSUMS:
+  Alamofire: bfbc4c2fe5909b1d94fb4ef2277c6b3727ef5dae
+  AlamofireImage: 34a2d90b0e5fe6a5605f85ae4b7b01e784c60192
   CoinList: 843128db4935ac7359002068f22f1d808c8d5366
+  LucasCoinAPI: 62d41fe08e88c4656279cd43093985810322ce8c
+  SwiftLint: 99f82d07b837b942dd563c668de129a03fc3fb52
 
-PODFILE CHECKSUM: b37e7402ef9a3a546f807b0dd06502d79fc23546
+PODFILE CHECKSUM: d64eace537fcfa4a13180737c6990f56bdde07dc
 
 COCOAPODS: 1.10.1

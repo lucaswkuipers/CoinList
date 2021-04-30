@@ -1,2 +1,5 @@
 ${PODS_ROOT}/Target Support Files/Pods-ExampleCoinList-ExampleCoinListUITests/Pods-ExampleCoinList-ExampleCoinListUITests-frameworks.sh
+${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework
+${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework
 ${BUILT_PRODUCTS_DIR}/CoinList/CoinList.framework
+${BUILT_PRODUCTS_DIR}/LucasCoinAPI/LucasCoinAPI.framework

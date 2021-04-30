@@ -31,6 +31,8 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '10.0'
 
   s.source_files = 'CoinList/Classes/**/*'
+	
+#  s.dependency 'API', :git => 'https://github.com/lucaswkuipers/API.git'
   
   # s.resource_bundles = {
   #   'CoinList' => ['CoinList/Assets/*.png']

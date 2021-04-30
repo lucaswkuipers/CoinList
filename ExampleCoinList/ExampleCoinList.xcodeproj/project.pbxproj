@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,7 +13,6 @@
 		9DE885E826290DED00219846 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DE885E726290DED00219846 /* AppDelegate.swift */; };
 		9DE885EA26290DED00219846 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DE885E926290DED00219846 /* SceneDelegate.swift */; };
 		9DE885EC26290DED00219846 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DE885EB26290DED00219846 /* ViewController.swift */; };
-		9DE885EF26290DED00219846 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DE885ED26290DED00219846 /* Main.storyboard */; };
 		9DE885F226290DED00219846 /* ExampleCoinList.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9DE885F026290DED00219846 /* ExampleCoinList.xcdatamodeld */; };
 		9DE885F426290DEF00219846 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9DE885F326290DEF00219846 /* Assets.xcassets */; };
 		9DE885F726290DEF00219846 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DE885F526290DEF00219846 /* LaunchScreen.storyboard */; };
@@ -50,7 +49,6 @@
 		9DE885E726290DED00219846 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9DE885E926290DED00219846 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		9DE885EB26290DED00219846 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		9DE885EE26290DED00219846 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9DE885F126290DED00219846 /* ExampleCoinList.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ExampleCoinList.xcdatamodel; sourceTree = "<group>"; };
 		9DE885F326290DEF00219846 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9DE885F626290DEF00219846 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -103,7 +101,6 @@
 				6A028CF683F2B67E394DF03C /* Pods-ExampleCoinListTests.debug.xcconfig */,
 				9B21040437B630EF0D655ADE /* Pods-ExampleCoinListTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -145,7 +142,6 @@
 				9DE885E726290DED00219846 /* AppDelegate.swift */,
 				9DE885E926290DED00219846 /* SceneDelegate.swift */,
 				9DE885EB26290DED00219846 /* ViewController.swift */,
-				9DE885ED26290DED00219846 /* Main.storyboard */,
 				9DE885F326290DEF00219846 /* Assets.xcassets */,
 				9DE885F526290DEF00219846 /* LaunchScreen.storyboard */,
 				9DE885F826290DEF00219846 /* Info.plist */,
@@ -282,7 +278,6 @@
 			files = (
 				9DE885F726290DEF00219846 /* LaunchScreen.storyboard in Resources */,
 				9DE885F426290DEF00219846 /* Assets.xcassets in Resources */,
-				9DE885EF26290DED00219846 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -449,14 +444,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		9DE885ED26290DED00219846 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				9DE885EE26290DED00219846 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		9DE885F526290DEF00219846 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -600,7 +587,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.lucaswkuipers.ExampleCoinList;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -620,7 +607,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.lucaswkuipers.ExampleCoinList;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

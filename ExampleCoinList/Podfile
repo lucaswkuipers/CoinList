@@ -7,6 +7,8 @@ target 'ExampleCoinList' do
 
   # Pods for ExampleCoinList
   pod 'CoinList', :path => '../'
+  pod 'LucasCoinAPI'
+#  pod 'API', :git => 'https://github.com/lucaswkuipers/API.git'
 
   target 'ExampleCoinListTests' do
     inherit! :search_paths

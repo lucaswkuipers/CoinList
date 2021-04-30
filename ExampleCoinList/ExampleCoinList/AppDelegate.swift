@@ -7,14 +7,21 @@
 
 import UIKit
 import CoreData
+import CoinList
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
-
+	var window: UIWindow?
 
 	func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
 		// Override point for customization after application launch.
+		window = UIWindow(frame: UIScreen.main.bounds)
+		
+		let mainVC = ViewController(nibName: "TelaViewController", bundle: bundle)
+		let nav = UINavigationController(rootViewController: mainVC)
+		window?.rootViewController = nav
+		window?.makeKeyAndVisible()
 		return true
 	}
 
